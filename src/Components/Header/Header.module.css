@@ -1,0 +1,67 @@
+.header_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 130px;
+  border-bottom: 1px solid #f6f6f6;
+}
+
+.logo img {
+  margin-right: 17px;
+}
+
+h2.cite_name {
+  color: #181818;
+  font-size: 24px;
+}
+
+.header_wrapper_left {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cite_name_cover h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+  color: #181818;
+}
+
+.cite_name_cover span {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  color: #7b7b7b;
+}
+
+.header_wrapper_rigt_btns {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fe5f1e;
+  border-radius: 30px;
+}
+
+.header_wrapper_rigt_btns button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.header_wrapper_rigt_btns button span {
+  margin-left: 8px;
+}
