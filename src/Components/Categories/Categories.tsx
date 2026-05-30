@@ -1,6 +1,16 @@
 import styles from "./Categories.module.css";
+import { useEffect, useState } from "react";
+import categories from "../../App";
 
 const Categories = () => {
+  const [users, setUsers] = useState([]);
+
+  useEffect(() => {
+    fetch("https://jsonplaceholder.typicode.com/users")
+      .then((res) => res.json())
+      .then((data) => setUsers(data));
+  }, []);
+
   return (
     <div className={styles.categories}>
       <ul>
