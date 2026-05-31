@@ -42,3 +42,55 @@
   border-radius: 5px;
   background-color: #ffffff;
 }
+
+.setTabsBottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 7px;
+}
+
+.setTabsBottom span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 86px;
+  height: 32px;
+  border-radius: 5px;
+}
+
+.setTabsBottom span.active{
+  width: 86px;
+  height: 32px;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.setTabFinish{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.setTabFinish .price{
+  font-size: 22px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.setTabFinish button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 155px;
+  height: 40px;
+  border: 1px solid #EB5A1E;
+  color: #EB5A1E;
+  font-size: 16px;
+  font-weight: bold;
+  outline: none;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #fff;
+}

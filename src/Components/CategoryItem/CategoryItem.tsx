@@ -11,6 +11,17 @@ const CategoryItem = () => {
           <span className={styles.active}>тонкое</span>
           <span>традиционное</span>
         </div>
+
+        <div className={styles.setTabsBottom}>
+          <span className={styles.active}>26 см.</span>
+          <span>30 см.</span>
+          <span>40 см.</span>
+        </div>
+
+        <div className={styles.setTabFinish}>
+          <span className={styles.price}>от 395 ₽</span>
+          <button><b>+</b> Добавить <span  id="counter">2</span></button>
+        </div>
       </div>
     </div>
   );
